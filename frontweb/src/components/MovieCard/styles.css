@@ -1,0 +1,88 @@
+.moviecard-container {
+  width: 300px;
+  height: 322px;
+  padding-top: 26px;
+  margin-bottom: 20px;
+}
+
+.moviecard-top-container img {
+  width: 300px;
+  height: 164px;
+  margin-bottom: 10px;
+}
+
+.moviecard-botton-container {
+  padding: 0 15px;
+}
+
+.moviecard-botton-container h1 {
+  font-size: 20px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.moviecard-botton-container h2 {
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  color: #ffc700;
+}
+
+.moviecard-botton-container p {
+  font-size: 14px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+}
+
+@media (min-width: 576px) {
+  .moviecard-container {
+    width: 258px;
+  }
+  .moviecard-top-container img {
+    width: 258px;
+  }
+}
+
+@media (min-width: 768px) {
+  .moviecard-container {
+    width: 324px;
+    height: 364px;
+  }
+  .moviecard-top-container img {
+    width: 324px;
+    height: 203px;
+  }
+  .moviecard-top-container {
+    margin-top: 20px;
+    margin-bottom: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .moviecard-container {
+    width: 436px;
+    height: 457px;
+  }
+  .moviecard-top-container img {
+    width: 436px;
+    height: 274px;
+  }
+  .moviecard-top-container {
+    margin-bottom: 21px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .moviecard-container {
+    width: 258px;
+    height: 322px;
+  }
+  .moviecard-top-container img {
+    width: 258px;
+    height: 164px;
+  }
+  .moviecard-top-container {
+    margin-top: 26px;
+    margin-bottom: 10px;
+  }
+}

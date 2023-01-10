@@ -1,0 +1,21 @@
+.moviecatalog-container {
+  padding: 20px 10px;
+}
+
+@media (min-width: 576px) {
+  .moviecatalog-container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .moviecatalog-container {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .moviecatalog-container {
+    padding: 40px 140px;
+  }
+}

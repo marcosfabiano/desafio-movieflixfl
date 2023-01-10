@@ -1,0 +1,21 @@
+.reviewlisting-container {
+  padding: 17px 10px;
+}
+
+@media (min-width: 576px) {
+  .reviewlisting-container {
+    padding: 17px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reviewlisting-container {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reviewlisting-container {
+    padding: 25px 40px;
+  }
+}

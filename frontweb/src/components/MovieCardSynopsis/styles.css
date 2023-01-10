@@ -1,0 +1,118 @@
+.moviecardsynopsis-container {
+  padding: 20px;
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.moviecardsynopsis-top-container img {
+  width: 260px;
+  height: 163px;
+}
+
+.moviecardsynopsis-top-container {
+  margin-bottom: 10px;
+}
+
+.moviecardsynopsis-botton-container {
+  padding: 0;
+}
+
+.moviecardsynopsis-botton-container h1 {
+  font-size: 20px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.moviecardsynopsis-botton-container h2 {
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  color: #ffc700;
+}
+
+.moviecardsynopsis-botton-container p {
+  font-size: 14px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+}
+
+.moviecardsynopsis-text-container {
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+
+.moviecardsynopsis-text-container p {
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: -0.015em;
+  color: #9e9e9e;
+}
+
+@media (min-width: 576px) {
+  .moviecardsynopsis-container {
+    width: auto;
+  }
+  .moviecardsynopsis-top-container img {
+    width: 496px;
+    height: 311px;
+  }
+}
+
+@media (min-width: 768px) {
+  .moviecardsynopsis-container {
+    padding: 40px;
+    height: auto;
+  }
+  .moviecardsynopsis-top-container img {
+    width: 608px;
+    height: 382px;
+  }
+  .moviecardsynopsis-top-container {
+    margin-bottom: 18px;
+  }
+  .moviecardsynopsis-botton-container h1 {
+    font-size: 36px;
+  }
+  .moviecardsynopsis-botton-container h2 {
+    font-size: 24px;
+  }
+  .moviecardsynopsis-botton-container p {
+    font-size: 24px;
+    margin-bottom: 39px;
+  }
+  .moviecardsynopsis-text-container p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .moviecardsynopsis-top-container {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .moviecardsynopsis-container {
+    width: auto;
+    display: flex;
+    padding: 40px;
+  }
+  .moviecardsynopsis-top-container img {
+    width: 500px;
+    height: 314px;
+  }
+  .moviecardsynopsis-top-container {
+    margin: 0;
+  }
+  .moviecardsynopsis-botton-container {
+    padding: 0;
+    margin-left: 40px;
+  }
+  .moviecardsynopsis-text-container {
+    padding: 16px 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+  }
+}

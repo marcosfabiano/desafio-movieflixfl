@@ -1,0 +1,51 @@
+.reviewform-container {
+  padding: 20px 10px;
+  margin-bottom: 18px;
+}
+
+.reviewform-input input {
+  height: 50px;
+  color: #9e9e9e !important;
+  border: 1px solid #e1e1e1 !important;
+  border-radius: 4px !important;
+  margin-bottom: 17px;
+  letter-spacing: -0.015em;
+}
+
+@media (min-width: 576px) {
+  .reviewform-container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reviewform-container {
+    padding: 40px;
+  }
+  .reviewform-input {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .reviewform-input {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .reviewform-container {
+    padding: 40px;
+    margin-bottom: 29px;
+  }
+
+  .reviewform-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reviewform-submit button {
+    width: 334px;
+  }
+}

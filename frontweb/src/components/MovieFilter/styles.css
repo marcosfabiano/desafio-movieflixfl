@@ -1,0 +1,38 @@
+.movie-filter-container {
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.movie-filter-botton-container {
+  display: flex;
+}
+
+.movie-filter-genre-container {
+  flex: 1;
+}
+
+.movie-filter-select__control {
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  background: none !important;
+  border: 1px solid #e1e1e1 !important;
+  border-radius: 4px !important;
+}
+
+.movie-filter-select__indicator-separator {
+  display: none;
+}
+
+.movie-filter-select__single-value {
+  color: #ffffff !important;
+}
+
+.movie-filter-select__menu-list {
+  background: #6c6c6c;
+}
+
+@media (min-width: 576px) {
+  .movie-filter-select__control {
+    width: 260px;
+  }
+}
